@@ -1,0 +1,161 @@
+#nav {
+    background-color: black;
+}
+
+#container1 {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+#container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+}
+
+#container3 {
+    display: flex;
+    align-items: center;
+}
+
+#container4 {
+    flex-shrink: 0;
+}
+
+#link {
+    color: white;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#container6 {
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+#links {
+    margin-right: 10px;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: 600;
+}
+
+#links:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#container7 {
+    display: none;
+    align-items: center;
+}
+
+#btn {
+    background-color: black;
+    /* display: inline-flex; */
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+#icons {
+    height: 16px;
+    width: 16px;
+}
+
+#container9 {
+    padding: 8px;
+}
+
+#linkss {
+    display: block;
+    margin-right: 10px;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: 600;
+}
+
+#linkss:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    #container1 {
+        padding-left: 16px;
+        padding-right:16px;
+    }
+
+    #container5 {
+        display: block;
+    }
+
+    #container7 {
+        display: none;
+    }
+
+    #links {
+        margin-right: 0;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    #btn {
+        margin-bottom: 16px;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    #container1 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+
+    #container3 {
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+
+    #container7 {
+        display: none;
+    }
+
+    #links {
+        width: 100%;
+        text-align: center;
+    }
+
+    #linkss {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+
+
+    #container7 {
+        display: block;
+    }
+
+    #container5 {
+        display: none;
+    }
+}
